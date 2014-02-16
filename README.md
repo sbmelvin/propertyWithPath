@@ -3,7 +3,7 @@ hasPropertyWithPathJS
 
 A JS method to check for the existence of a property deep within a JS Object.
 
-Paths are key values or array indicies separated by periods.
+Paths are key values or array indices separated by periods.
 
 Example Usage:
 ```javascript
