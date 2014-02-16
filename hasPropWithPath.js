@@ -1,4 +1,4 @@
-Object.prototype.hasPropertyWithPath = function (path) {
+Object.prototype.propertyWithPath = function (path) {
     var keys = path.split('.');
     var parent = this;
     var child;

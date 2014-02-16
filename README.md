@@ -1,4 +1,4 @@
-hasPropertyWithPathJS
+Object.propertyWithPath
 ==================
 
 A JS method to check for the existence of a property deep within a JS Object.
@@ -10,15 +10,15 @@ var x = {
 	y: 5
 };
 
-x.hasPropertyWithPath("y"); //Returns 5
+x.propertyWithPath("y"); //Returns 5
 
-x.hasPropertyWithPath("y.z") //Returns undefined
+x.propertyWithPath("y.z") //Returns undefined
 
 
 var x = {
 	y: ['moe', 'larry', 'curly', { z: 'shemp' } ]
 };
 
-x.hasPropertyWithPath("y.0"); //Returns 'moe'
-x.hasPropertyWithPath("y.3.z"); //Returns 'shemp'
-x.hasPropertyWithPath("y.2.z"); //Returns undefined
+x.propertyWithPath("y.0"); //Returns 'moe'
+x.propertyWithPath("y.3.z"); //Returns 'shemp'
+x.propertyWithPath("y.2.z"); //Returns undefined
