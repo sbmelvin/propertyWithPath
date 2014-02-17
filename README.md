@@ -6,6 +6,8 @@ Object.propertyWithPath
 A JS method to check for the existence of a property deep within a JS Object.
 Paths are key values or array indicies separated by periods.
 
+Returns: The value of the property if it exists, otherwise it returns undefined.
+
 Example Usage:
 
 var x = { 
