@@ -1,5 +1,3 @@
-```javascript
-
 Object.propertyWithPath
 ==================
 
@@ -10,6 +8,7 @@ Returns: The value of the property if it exists, otherwise it returns undefined.
 
 Example Usage:
 
+```javascript
 var x = { 
 	y: 5
 };
