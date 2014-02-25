@@ -1,6 +1,6 @@
-function propertyWithPath(path) {
+function propertyWithPath(obj, path) {
     var keys = path.split('.');
-    var parent = this;
+    var parent = obj;
     var child;
     
     for (var i = 0; i < keys.length; i++) {
