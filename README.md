@@ -10,16 +10,16 @@ Example Usage:
 
 ```javascript
 var x = { 
-	y: 5
+    y: 5
 };
 
 propertyWithPath(x, "y"); //Returns 5
 
-propertyWithPath(x, "y.z") //Returns undefined
+propertyWithPath(x, "y.z"); //Returns undefined
 
 
 var x = {
-	y: ['moe', 'larry', 'curly', { z: 'shemp' } ]
+    y: ['moe', 'larry', 'curly', { z: 'shemp' } ]
 };
 
 propertyWithPath(x, "y.0"); //Returns 'moe'
